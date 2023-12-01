@@ -1,0 +1,14 @@
+@import"cssreset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@import"top-section.css";
+
+@import"services.css";
+
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}

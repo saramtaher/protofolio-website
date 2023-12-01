@@ -1,0 +1,72 @@
+#top{
+    
+
+}
+#top .container{display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+    align-items: center;
+
+}
+#top .info{
+    
+}
+#top .info .blue-square {
+    border: 20px solid #dbf1ff;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    top: 170px;
+    left: -70px;
+    border-radius: 50%; /* Rounded corners for a softer look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
+}
+
+#top .info h1 {
+    font-size: 3rem; /* Increased font size for emphasis */
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16171b;
+    margin-bottom: 2rem;
+    z-index: 1;
+    position: relative;
+    text-align: center; /* Center-align the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adding a text shadow for emphasis */
+    top:70px;
+}
+#top .info p{
+    color:#919191;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+#top .info a{
+    color:#16171b;
+    text-transform: uppercase;
+    font-weight:600 ;
+    text-decoration:none ;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+    z-index: 1;
+    position: relative;
+    right:-200px;
+    top:90px;
+}
+#top .img{
+    
+}
+#top .img .background-img {
+    background: url('../images/sara.jpeg');
+    background-position: center center; /* Center the background image horizontally and vertically */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto; /* Center the element horizontally within its container */
+}
